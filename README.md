@@ -35,7 +35,7 @@ projeto_flask/
 git clone <url-do-repositorio>
 cd projeto_flask
 
-2. Crie e ative um ambiente virtual
+ 2. Crie e ative um ambiente virtual
 python -m venv venv
 # Windows:
 venv\Scripts\activate
