@@ -27,7 +27,6 @@ Este projeto simula um sistema de **monitoramento agrícola inteligente** que op
 │   └── resultado.html      # Resultado da simulação
 └── README.md               # Este arquivo```
 
-Seu guia de execução está ótimo, só precisa de pequenos ajustes de **formatação Markdown** para que fique visualmente mais claro e bem estruturado. Aqui está uma versão organizada, com tópicos numerados e blocos de código corrigidos:
 
 ---
 
@@ -92,7 +91,7 @@ Após envio do formulário, o sistema exibe:
 * Status da irrigação.
 * Com base no ambiente selecionado, as informações são lidas do arquivo banco.xml.
 
-🗂️ Exemplo de banco.xml
+🗂️ Exemplo de banco.xml:
 xml
 Copiar
 Editar
@@ -106,7 +105,7 @@ Editar
         <ModuloIrrigacao>Irrigação ativada via gotejamento</ModuloIrrigacao>
     </Campo>
 </Agricultura>
-✅ Requisitos Atendidos
+✅ Requisitos Atendidos:
  Interface com Flask
 
  Abstract Factory para sensores e irrigação
@@ -122,13 +121,13 @@ Editar
 
 
 
-👨‍💻 Autor
+👨‍💻 Autor:
 Helder Oliveira Gomes de Souza
 
 Curso: Ciência da Computação
 
 Disciplina: Projeto e Implementação de Software
 
-📝 Licença
+📝 Licença:
 Este projeto é apenas para fins educacionais.
 
