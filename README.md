@@ -9,7 +9,7 @@ Este projeto simula um sistema de **monitoramento agrícola inteligente** que op
 - **XML como banco de dados simulado**: Dados dos sensores e irrigação são carregados a partir de um arquivo XML.
 
 ## 📁 Estrutura de Pastas
-projeto_flask/
+```projeto_flask/
 ├── app.py                  # Arquivo principal com rotas Flask
 ├── fabrica/                # Implementações do Abstract Factory
 │   ├── interfaces.py       # Interfaces abstratas dos sensores e módulos
@@ -25,7 +25,8 @@ projeto_flask/
 ├── templates/
 │   ├── index.html          # Formulário para escolha de ambiente
 │   └── resultado.html      # Resultado da simulação
-└── README.md               # Este arquivo
+└── README.md               # Este arquivo```
+
 
 ## 🚀 Como Executar o Projeto
 
