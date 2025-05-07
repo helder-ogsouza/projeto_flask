@@ -32,12 +32,12 @@ Este projeto simula um sistema de **monitoramento agrícola inteligente** que op
 
 ## 🚀 Como Executar o Projeto
 
-### 1. Clone o repositório (ou copie os arquivos)
+Siga os passos abaixo:
 
-```bash
-git clone <url-do-repositorio>
-cd projeto_flask
-```
+1. **Clone o repositório (ou copie os arquivos)**  
+   ```bash
+   git clone <url-do-repositorio>
+   cd projeto_flask
 
 ### 2. Crie e ative um ambiente virtual
 
