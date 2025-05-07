@@ -27,42 +27,70 @@ Este projeto simula um sistema de **monitoramento agrícola inteligente** que op
 │   └── resultado.html      # Resultado da simulação
 └── README.md               # Este arquivo```
 
+Seu guia de execução está ótimo, só precisa de pequenos ajustes de **formatação Markdown** para que fique visualmente mais claro e bem estruturado. Aqui está uma versão organizada, com tópicos numerados e blocos de código corrigidos:
+
+---
 
 ## 🚀 Como Executar o Projeto
 
 ### 1. Clone o repositório (ou copie os arquivos)
+
 ```bash
 git clone <url-do-repositorio>
 cd projeto_flask
+```
 
- 2. Crie e ative um ambiente virtual
+### 2. Crie e ative um ambiente virtual
+
+```bash
 python -m venv venv
-# Windows:
+```
+
+#### Windows:
+
+```bash
 venv\Scripts\activate
-# Linux/macOS:
+```
+
+#### Linux/macOS:
+
+```bash
 source venv/bin/activate
+```
 
-3. Instale as dependências
+### 3. Instale as dependências
+
+```bash
 pip install flask
+```
 
-4. Execute a aplicação
+### 4. Execute a aplicação
+
+```bash
 python app.py
+```
 
-5. Acesse no navegador
-Abra http://127.0.0.1:5000 no seu navegador.
+### 5. Acesse no navegador
 
-🖥️ Funcionalidade
-🔧 Página inicial (/)
-Formulário onde o usuário escolhe entre Estufa ou Campo.
+Abra [http://127.0.0.1:5000](http://127.0.0.1:5000) no seu navegador.
 
-📊 Página de resultado (/resultado)
+---
+
+## 🧠 Funcionalidade
+
+### 🔹 Página inicial (`/`)
+
+Formulário onde o usuário escolhe entre **Estufa** ou **Campo**.
+
+### 📊 Página de resultado (`/resultado`)
+
 Após envio do formulário, o sistema exibe:
 
-Leitura do sensor de temperatura
-
-Status da irrigação
-
-Com base no ambiente selecionado, as informações são lidas do arquivo banco.xml.
+* Valores simulados dos sensores;
+* Informações específicas para o ambiente escolhido. 
+* Leitura do sensor de temperatura.
+* Status da irrigação.
+* Com base no ambiente selecionado, as informações são lidas do arquivo banco.xml.
 
 🗂️ Exemplo de banco.xml
 xml
