@@ -25,8 +25,12 @@ Este projeto simula um sistema de **monitoramento agrícola inteligente** que op
 ├── templates/
 │   ├── index.html          # Formulário para escolha de ambiente
 │   └── resultado.html      # Resultado da simulação
-└── README.md               # Este arquivo```
+└── README.md               # Este arquivo
+```
 
+
+
+---
 
 ## 🚀 Como Executar o Projeto
 
