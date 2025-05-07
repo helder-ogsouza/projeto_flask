@@ -37,7 +37,7 @@ Siga os passos abaixo:
 1. **Clone o repositório (ou copie os arquivos)**  
    ```bash
    git clone <url-do-repositorio>
-   cd projeto_flask
+   cd projeto_flask```
 
 ### 2. Crie e ative um ambiente virtual
 
